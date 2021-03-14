@@ -1,4 +1,4 @@
-#    Copyright (c) 2021 Didiktea BOTs <https://t.me/puituflynn>
+#    Copyright (c) 2021 Didiktea BOTs <https://t.me/Didiktea>
  
 #    This program is free software: you can redistribute it and/or modify  
 #    it under the terms of the GNU General Public License as published by  
@@ -81,7 +81,7 @@ async def song(client, message):
     #if args.startswith("/help"):
         #return ""    
     status = await message.reply(
-             text="<b>Downloading your song, Plz wait 🥺\n\nMade by @Didiktea 🇮🇳</b>",
+             text="<b>Downloading your song, Plz wait 🥺\n\nMade by @Didiktea </b>",
              disable_web_page_preview=True,
                         reply_markup=InlineKeyboardMarkup(
                             [[
@@ -128,7 +128,7 @@ async def song(client, message):
         await message.reply("<b>Enter a song name❗\n\nExample: `/s guleba`</b>")
         return ""
     status = await message.reply(
-             text="<b>Downloading your song, Plz wait 🥺\n\nMade by @Didiktea 🇮🇳</b>",
+             text="<b>Downloading your song, Plz wait 🥺\n\nMade by @Didiktea </b>",
              disable_web_page_preview=True,
                         reply_markup=InlineKeyboardMarkup(
                             [[
@@ -171,7 +171,7 @@ async def start(client, message):
                chat_id=message.chat.id,
                text="""<b>Hey There, I'm a Song Downloader Bot
 
-Made by @Didiktea 🇱🇰
+Made by @Didiktea 
 
 Hit help button to find out more about how to use me</b>""",   
                             reply_markup=InlineKeyboardMarkup(
